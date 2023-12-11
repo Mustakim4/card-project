@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.box {
+    background-color: #ecfff5;
+    background-image: linear-gradient(45deg, #ecfff5 0%, #ffe4e4 100%);
+    width: 18rem;
+    border-radius: 0.8rem;
+
+    margin: 3rem;       
+    box-shadow: 1rem 1rem 2rem 0.5rem;   
+}
+
+
+.imgDiv img {
+    border-radius: 0.8rem 0.8rem 0rem 0rem;
+    width: 100%;
+    height: 8rem;
+}
+
+/* second section */
+
+.textSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin: 0.6rem;
+    font-weight: 700;
+}
+
+.textSection h2 {
+    padding: 0.5rem;
+}
+
+.textSection p {
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+/* third section */
+
+.threeInOneSection {
+    background-color: #8BC6EC;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1.3rem;
+
+    height: 2.5rem;
+
+    border-radius: 0.6rem;
+}
+
+.thirdSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+}
+
+
+.threeInOneSection p {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.threeInOneSection a {
+    margin-right: 0.6rem;
+}
+
+/* button */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3rem;
+}
+
+.btn button {
+    background-color: #282b63;
+    width: 85%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0.6rem;
+    color: white;
+    box-shadow: 0.8rem 0.5rem 2rem #282b63;
+}
+
+.CancelOrder{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+@media (max-width:340px) {
+    .thirdSection p{
+        font-size: 0.8rem;
+    }
+}
